@@ -1,5 +1,13 @@
 # DWM Debian Setup
 
+## Quick Install
+
+Quick install with all dependencies for debian:
+
+```sh
+curl -L https://raw.githubusercontent.com/MarcoKorinth/dwm/main/quickinstall.sh | sudo bash
+```
+
 ## Setup Debian
 
 ### Debian Tips
@@ -7,7 +15,7 @@
 On a fresh system it might be useful to add `contrib non-free`
 to all entries in /apt/sources.list
 
-### Installing DWM
+### Installing DWM from scratch
 
 First install all prerequisites:
 
